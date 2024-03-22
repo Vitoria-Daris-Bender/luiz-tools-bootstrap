@@ -1,0 +1,99 @@
+.bg-geral{
+    background-color: #09040f;
+background-image: linear-gradient(360deg, #09040f, rgba(0, 0, 0, .5)), linear-gradient(140deg, #ee0c0c, #ff9659 22%, #d73802 38%, #2b2b2b 57%, #011c34 75%, #000);}
+
+
+@font-face {
+    font-family: termina demi;
+    src: url(https://uploads-ssl.webflow.com/5e3560ac9615a2309b6fb86c/5ea824d5d7d95e313db4e569_Termina-Demi.otf) format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+}
+
+.torne{
+    color: #d73802;
+    font-size: 16px;
+    line-height: 120%;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#button-Preco{
+    background-color:#d73802;
+    color: white;
+    border-color: transparent;
+}
+
+#button-Preco:hover{
+    background-color: #ee0c0c;
+    box-shadow: 0 5px 10px 0 rgba(106, 89, 255, 0.2);
+    transform: translate(0, -2px);
+    transition: transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1),
+      background-color 400ms cubic-bezier(0.165, 0.84, 0.44, 1),
+      box-shadow 400ms cubic-bezier(0.165, 0.84, 0.44, 1),
+      -webkit-transform 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+.video{
+    margin-top: 7rem;
+}
+
+.title{
+    color: white;
+    font-size: 60px;
+    font-family: termina demi;
+    src: url(https://uploads-ssl.webflow.com/5e3560ac9615a2309b6fb86c/5ea824d5d7d95e313db4e569_Termina-Demi.otf) format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+    margin-right: 5rem;
+}
+
+p {
+    font-family: work sans, sans-serif;
+    color: #ff9659;
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 500;
+    margin-right: 5rem;
+}
+
+script {
+    display: none;
+}
+
+.title2{
+    color: white;
+    font-size: 100%;
+    font-weight: 700;
+}
+
+.title3{
+    font-size:40px;
+    color: white;
+    font-family: termina demi;
+    src: url(https://uploads-ssl.webflow.com/5e3560ac9615a2309b6fb86c/5ea824d5d7d95e313db4e569_Termina-Demi.otf) format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: auto;
+    margin-right: 5rem;
+}
+
+.block{
+    font-size: 18px;
+}
+
+#curso{
+    font-size: 15px;
+}
+
+.navbar-nav{
+    margin-left: 5rem;
+}
+
+.nav-link {
+    margin-left: 2rem;
+}
+
